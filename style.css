@@ -15,10 +15,10 @@ body{
 }
 
 .container{
-    background-color:hsl(217, 19%, 24%);
+    background-color:hsl(218, 20%, 24%);
     font-family: 'Manrope', sans-serif;
     padding-top:3rem;
-    padding-bottom:4rem;
+    padding-bottom:4.5rem;
     padding-left:3rem;
     padding-right:3rem;
     position: relative;
@@ -51,8 +51,8 @@ h1{
     left:50%;
     transform:translate(-50%,50%);
     background-color: hsl(150, 100%, 66%);
-    width:3.5rem;
-    height:3.5rem;
+    width:4rem;
+    height:4rem;
     border-radius: 50%;
     outline:0;
     border:0;
@@ -70,6 +70,11 @@ h1{
 .btn:active{
     box-shadow:0 0 1rem hsl(150, 94%, 53%);
     background-color:hsl(150, 94%, 53%);
+}
+
+.line-divider-desktop,
+.line-divider-mobile{
+    margin-top:0.7rem;
 }
 
 .line-divider-mobile{
